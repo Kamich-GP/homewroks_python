@@ -1,0 +1,41 @@
+  * {
+    font-family: sans-serif;
+
+}
+
+  
+  header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  img {
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 20px;
+    color: #ffff;
+    text-align: center;
+  }

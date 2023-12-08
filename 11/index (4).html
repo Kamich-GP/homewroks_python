@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="#" method="post" target="_blank">
+        <fieldset>
+          <h1>Персональные данные</h1>
+          <ul>
+            <li>
+              <label for="name">Имя:*</label>
+              <input type="text" name="name" placeholder="Введите свое имя" id="name" required>
+            </li>
+            <li>
+              <label for="age">Возраст:</label>
+              <input type="number" name="age" placeholder="Введите свой возраст" id="age" >
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <h1>Контакты</h1>
+          <ul>
+            <li>
+              <label for="email">E-mail:*</label>
+              <input type="email" name="mail" placeholder="youremail@gmail.com" id="email" required>
+            </li>
+            <li>
+              <label for="number">Телефон:*</label>
+              <input type="tel" name="phone" placeholder="+9989" id="number" required>
+            </li>
+          </ul>
+        </fieldset> 
+    <h2>Добавление новой статьи</h2>  
+    <form action="/submit_article" method="post">
+      <label for="title">Заголовок:</label><br>
+      <input type="text" id="title" name="title"><br><br>
+      <label for="content">Содержание:</label><br>
+      <textarea id="content" name="content" rows="4" cols="50"></textarea><br><br>
+      <input type="submit" value="Добавить статью">
+    </form>
+</body>
+</html>
